@@ -14,7 +14,8 @@ const cors = require('cors');
 // Load environment variables from .env file
 dotenv.config();
 // Set the GOOGLE_APPLICATION_CREDENTIALS environment variable
-process.env.GOOGLE_APPLICATION_CREDENTIALS = './firebase.json';
+process.env.GOOGLE_APPLICATION_CREDENTIALS = './firebaseCred.json';
+
 
 // Initialize Express app and middleware
 const expressApp = express();
@@ -33,7 +34,7 @@ const firebaseConfig = {
 };
 
 // Path to your Admin .json Credential of Firestore
-const serviceAccount = require('./firebase.json');
+const serviceAccount = require('./firebaseCred.json');
 
 // Initialize Firebase Admin SDK
 const app = admin.initializeApp({

@@ -1,6 +1,6 @@
-# Reduzer Chatbot
+# SaaS Chatbot
 
-Reduzer Chatbot is a project that leverages the Genkit SDK to implement a robust and intelligent chatbot. This project integrates Firebase, Google AI, and Genkit to provide a seamless conversational experience with Reduzer Docs.
+Saas Chatbot is a project that leverages the Genkit SDK to implement a robust and intelligent chatbot. This project integrates Firebase, Google AI, and Genkit to provide a seamless conversational experience with Reduzer Docs.
 
 ## Installation
 
